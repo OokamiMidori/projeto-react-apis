@@ -14,6 +14,7 @@ function Header() {
 
   const context = useContext(GlobalContext)
   const { removeFromPokedex, addToPokedex, pokedex} = context
+  
   // hook para saber nosso path atual
   const location = useLocation();
 

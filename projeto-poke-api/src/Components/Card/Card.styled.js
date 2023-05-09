@@ -10,9 +10,12 @@ export const Container = styled.div`
   position: relative;
   margin: 20px 10px;
   color: #ffffff;
+  p{
+    cursor: pointer;
+  }
 `;
 
-export const PokemonNumber = styled.p`
+export const PokemonNumber = styled.div`
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 600;

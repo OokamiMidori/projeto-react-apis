@@ -3,11 +3,12 @@ import { Container, TitleContainer } from "./HomePage.styled";
 import Header from "../../Components/Header/Header";
 import { useContext } from "react";
 import { GlobalContext } from "../../contexts/GlobalContexts";
+import Modal from "../../Components/Modal/Modal";
 
 function HomePage() {
   // const { pokelist, addToPokedex, pokedex } = props;
   const context = useContext(GlobalContext)
-  const { pokelist, addToPokedex, pokedex } = context
+  const { pokelist, addToPokedex, pokedex, modal, setModal } = context
 
   // não mostrar pokemons que estão na pokedex
   const filteredPokelist = () =>
@@ -20,6 +21,7 @@ function HomePage() {
 
   return (
     <Container>
+      {modal? <Modal/>:null}      
       <Header />
         <TitleContainer>Todos os Pokémons</TitleContainer>      
       <section>

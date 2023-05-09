@@ -15,7 +15,7 @@ export const Container = styled.header`
 
   div{
     width:20vw;
-   
+    cursor: pointer;
     font-style: normal;
     font-size: 24px;
     line-height: 36px;

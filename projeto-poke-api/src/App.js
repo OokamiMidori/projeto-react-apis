@@ -7,6 +7,8 @@ import axios from "axios";
 export default function App() {
   const [pokelist, setPokelist] = useState([]);
   const [pokedex, setPokedex] = useState([]);
+  const [modal, setModal] = useState(false);
+  const [secondModal, setSecondModal] = useState(false)
 
   useEffect(() => {
     fetchPokelist();
@@ -31,6 +33,9 @@ export default function App() {
       const newPokedex = [...pokedex, pokemonToAdd];
       setPokedex(newPokedex);
     }
+
+    setModal(true)
+    setSecondModal(false)
   };
 
   const removeFromPokedex = (pokemonToRemove) => {
@@ -39,6 +44,8 @@ export default function App() {
     );
 
     setPokedex(newPokedex);
+    setModal(true)
+    setSecondModal(true)
   };
  
 
@@ -46,7 +53,10 @@ export default function App() {
     pokelist,
     pokedex,
     addToPokedex,
-    removeFromPokedex
+    removeFromPokedex,
+    modal,
+    setModal,
+    secondModal
   }
 
   return (
