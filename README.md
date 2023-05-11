@@ -17,7 +17,7 @@ Primeiramente você pode baixar o arquivo no seu computador, usar o comando npm 
 
 Você pode tambem acessar o site https://pokeapi-fabio-couto.surge.sh e ver a aplicação rodando.
 
-A aplicação possui 3 páginas onde podem ser encontrados os 151 pokemons da primeira geração.
+A aplicação possui 3 páginas onde podem ser encontrados os 250 pokemons da primeira geração.
 
 A primeira página é uma HomePage onde vc encontra a lista de pokemons
 ![HomePage PokeApi](./pokeapi-homepage.png)
