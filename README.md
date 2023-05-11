@@ -20,10 +20,10 @@ Você pode tambem acessar o site https://pokeapi-fabio-couto.surge.sh e ver a ap
 A aplicação possui 3 páginas onde podem ser encontrados os 151 pokemons da primeira geração.
 
 A primeira página é uma HomePage onde vc encontra a lista de pokemons
-`![HomePage PokeApi] (./pokeapi-homepage.png)`
+![HomePage PokeApi] (./pokeapi-homepage.png)
 
 As outras páginas são a página da pokedex que salva os pokemons capturados
-`![PokedexPage] (./pokeapeipokedexpage.png)`
+![PokedexPage] (./pokeapeipokedexpage.png)
 
 e a página com os detalhes dos pokemons
-`![PokemonDetails] (./Detailpage.png)`
+![PokemonDetails] (./Detailpage.png)
